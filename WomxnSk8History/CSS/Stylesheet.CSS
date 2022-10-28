@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.heading {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    margin-left: 30px;
+    padding-top: 2%;
+    color: slategray;
+}
+
+.box-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+body{
+    background-color: #d5d2e2;
+    height: 75vh;
+    overflow-x: hidden;
+    
+}
+/*HEADER*/
+header{
+    display: flex;
+    overflow: hidden;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 5%;
+    height: 15vh;
+    background-color: rgb(91, 117, 140);
+    width: 100vw;
+}
+
+.cta {
+    margin-left: auto;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right:auto ;
+    max-width: 12%;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+    color: #1cd5ff;
+}
+
+.active {
+    background-color: rgb(11, 40, 25);
+}
+
+button{
+    padding: 10px 25px;
+    background-color:rgba(0,136,169,1) ;
+    border: none;
+    border-radius:50px ;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+button:hover{
+    background-color:rgba(0,136,169,0.6) ;
+}
+
+li, a, button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 250rem;
+    font-size: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*//HEADER*/
+
+
+
+
+
+/*FOOTER*/
+footer{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 10vh;
+    background-color: rgb(130, 124, 124);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer .Nat {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: calc(5vh - 0.5em);
+    
+
+}
+
+.IG_logo {
+    width: 3.5em;
+    height: auto;
+    margin-top: calc(3vh - 0.5em);
+
+}
+
+.LI_logo {
+    width: 3.5em;
+    margin-top: calc(3vh - 0.5em);
+}
+
+.donate {
+    width: 100px;
+    margin-top: calc(3vh - 0.5em);
+}
+/*//FOOTER*/
+
+/*CONTACT*/
+
+.contactphoto {
+    border: solid 2px black;
+    display: flex;
+    width: 500px;
+    height: auto;
+}
+
+.contactphoto img {
+    width: 100%;
+    height: 100%;
+}
+
+input[type=text], select, textarea {
+    
+	width: 60vw;
+    height: auto;
+    
+	padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	margin:15px;
+
+	
+}
+
+textarea {
+    
+    min-height: 270px;
+    padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	margin:15px;
+	
+
+}
+
+input[type=submit] {
+	background-color: rgba(0,136,169,1);
+	color: #f1f1f1;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 10px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+
+input[type=submit]:hover{
+
+background-color: rgba(0,136,169,0.6);
+}
+
+/*//CONTACT*/
+
+/*HOME*/
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    border: solid 5px black;
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin: 70px;
+    box-shadow: 
+    40px 40px 0px 10px #B8DeCD,
+    40px 40px 0px 15px black;
+}
+
+.box1 .hometxt {
+    padding: 40px;
+}
+
+.slideshow-container {
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 70px;
+    box-shadow:
+    -40px -40px 0px 10px #f0f030,
+    -40px -40px 0px 15px black; 
+    width: 550px;
+    
+
+}
+
+#slideShowImage {
+    width: 	100%;
+    border-radius: 3%;
+    display: block;
+}
+/*//HOME*/
+
+/*ABOUT ME*/
+
+.about-me-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.publications {
+    border: solid 5px black;
+    background-color: white;
+    border-radius: 20px;
+    
+    width: 550px;
+    max-height: 500px;
+    padding:5px 5px 4px 15px;
+    margin: 70px;
+    overflow-y: scroll;
+    
+    box-shadow: 
+    -30px -30px 0px 10px #ecc9ff,
+    -30px -30px 0px 15px black;
+}
+
+.publications .list {
+    padding: 10px;
+}
+
+.listitem > a {
+    color: rgb(251, 1, 1);
+}
+
+.listitem > a:hover {
+    color: rgb(76, 0, 255);
+    transition: ease all 0.3s;
+}
+
+.listitem{
+    color: #000;  
+    list-style:disc;
+    padding-left: 10px ;
+    padding-top: 8px;
+    line-height: 20px;
+}
+
+
+
+/*//ABOUT ME*/
+
+
+
+
+
+
+
+
+
+/*GALLERY*/
+.image-grid {
+    --gap:16px;
+    --num-cols: 4;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+    overflow: hidden;
+}
+
+.image-grid >img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-grid >iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-grid.img:hover{
+    --gap:2px;
+}
+
+.image-grid-col-2 {
+    grid-column:span 2 ;
+}
+
+.image-grid-row-2 {
+    grid-row:span 2 ;
+}
+/*//GALLERY*/
+
+
+/*SKATERS PAGE*/
+
+.skaters-container {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+
+.post-box {
+    width: 350px;
+    background-color:#fffffff6;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.post-img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius:17px ;
+    border-top-right-radius: 17px;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-text span{
+    color: red;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.post-text .post-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.post-text .post-title:hover{
+    color: #422da1;
+    transition: all ease 0.3s;
+
+}
+
+.post-text .post-story{
+    color: #414141;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+    margin: 10px -20px;
+}
+
+.post-text .read-more {
+    color: black
+}
+
+.post-text .read-more:hover{
+    color: #422da1;
+
+    transition: all ease 0.3s;
+
+}
+/*//SKATERS PAGE*/
+
+
+
+
+
+/*media querys*/
+@media screen and (max-width:1023px) {
+    .image-grid{
+        --num-cols:2;
+        --row-height:200px;
+    }
+
+}
+
